@@ -1,0 +1,21 @@
+> s3 <- list(month = "Feb", year = "2023", age ="23")
+> s3
+$month
+[1] "Feb"
+
+$year
+[1] "2023"
+
+$age
+[1] "23"
+
+
+> setClass("Person", representation(name = "character", age = "numeric"))
+> s4 <- new("Person", name = "Jasmine", age = 23)
+> s4
+An object of class "Person"
+Slot "name":
+[1] "Jasmine"
+
+Slot "age":
+[1] 23
